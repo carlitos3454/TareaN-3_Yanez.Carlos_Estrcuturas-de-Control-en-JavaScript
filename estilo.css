@@ -1,0 +1,59 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fdf6e3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    border: 2px dashed #999;
+    padding: 25px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 480px;
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #b58900;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #997700;
+}
+
+.output {
+    margin-top: 18px;
+    text-align: left;
+    background-color: #f0ead6;
+    padding: 12px;
+    border-radius: 6px;
+    max-height: 280px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
